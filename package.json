@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsnd --clear --quiet --respawn ./src/server.ts"
+    "test": "tsnd --clear --quiet --respawn --transpile-only ./src/server.ts"
   },
   "keywords": [],
   "author": "",
